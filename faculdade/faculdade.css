@@ -1,0 +1,55 @@
+
+
+
+
+.faculdade {
+    width: 2em;
+    height: 2em;
+    background: url('./faculdade.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.faculdade:hover {
+
+}
+
+.nav_item:hover>a>.nav_icon.faculdade{
+    animation-duration: 1s;
+    animation-name: faculdadeGlitch;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#faculdade{
+    
+}
+
+@keyframes faculdadeGlitch {
+    0%, 100% {
+        background: url("./faculdade.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+
+    92.5% {
+        background: url('./faculdade-1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 1;     
+    }
+
+    95% {
+        background: url('./faculdade-2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+
+    97.5% {
+        background: url('./faculdade-3.png');
+        background-size: contain;
+        background-repeat: no-repeat; 
+        opacity: 1;        
+    }
+}

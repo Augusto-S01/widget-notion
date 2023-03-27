@@ -1,0 +1,55 @@
+
+
+
+
+.ideias {
+    width: 2em;
+    height: 2em;
+    background: url('./cerebro.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ideias:hover {
+
+}
+
+.nav_item:hover>a>.nav_icon.ideias{
+    animation-duration: 1s;
+    animation-name: ideaseGlitch;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#ideias{
+    
+}
+
+@keyframes ideaseGlitch {
+    0%, 100% {
+        background: url("./cerebro.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+
+    92.5% {
+        background: url('./cerebro-1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 1;     
+    }
+
+    95% {
+        background: url('./cerebro-2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+
+    97.5% {
+        background: url('./cerebro-3.png');
+        background-size: contain;
+        background-repeat: no-repeat; 
+        opacity: 1;        
+    }
+}

@@ -1,0 +1,55 @@
+
+
+
+
+.cursos {
+    width: 2em;
+    height: 2em;
+    background: url('./cursos.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cursos:hover {
+
+}
+
+.nav_item:hover>a>.nav_icon.cursos{
+    animation-duration: 1s;
+    animation-name: cursoeGlitch;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#cursos{
+    
+}
+
+@keyframes cursoeGlitch {
+    0%, 100% {
+        background: url("./cursos.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+
+    92.5% {
+        background: url('./cursos-1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 1;     
+    }
+
+    95% {
+        background: url('./cursos-2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+
+    97.5% {
+        background: url('./cursos-3.png');
+        background-size: contain;
+        background-repeat: no-repeat; 
+        opacity: 1;        
+    }
+}

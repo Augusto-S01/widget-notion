@@ -1,0 +1,93 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #212529;
+}
+
+.navbar{
+    list-style: none;
+}
+
+body{
+    margin-top: 2em;
+}
+
+
+
+
+.nav_list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    
+}
+
+.nav_item{
+    padding: 1em;
+    color:#eee;
+    font-size: 1em;
+    line-height: 1;
+    letter-spacing: 0.125em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+.nav_item:hover{
+    animation-duration: 0.01s;
+    animation-name: textflicker;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+}
+
+.nav_link{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: none;
+    flex-direction: row;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+
+.nav_icon{
+    width: 2em;
+    height: 2em;
+
+}
+.nav_span{
+
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 1.5em;
+}
+
+.nav_span_div{
+    display: flex;
+  align-items: center;
+
+}
+
+.nav_hr{
+    margin-left: 1em;
+    border-bottom: #fff;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.nav_hr:before{
+    margin-left: 1em;
+}
+
+
+
+
+  
