@@ -3,8 +3,6 @@
 
 
 .home {
-    width: 2em;
-    height: 2em;
     background: url('../assets/home/home.png');
     background-size: contain;
     background-repeat: no-repeat;

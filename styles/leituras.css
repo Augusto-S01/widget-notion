@@ -3,8 +3,6 @@
 
 
 .leituras {
-    width: 2em;
-    height: 2em;
     background: url('../assets/leituras/leituras.png');
     background-size: contain;
     background-repeat: no-repeat;
