@@ -2,52 +2,52 @@
 
 
 
-.ideias {
+.entreterimento {
     width: 2em;
     height: 2em;
-    background: url('./ideia.png');
+    background: url('./entreterimento.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
-.ideias:hover {
+.entreterimento:hover {
 
 }
 
-.nav_item:hover>a>.nav_icon.ideias{
+.nav_item:hover>a>.nav_icon.entreterimento{
     animation-duration: 1s;
-    animation-name: ideaseGlitch;
+    animation-name: entreterimentoGlitch;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
-#ideias{
+#entreterimento{
     
 }
 
-@keyframes ideaseGlitch {
+@keyframes entreterimentoGlitch {
     0%, 100% {
-        background: url("./ideia.png");
+        background: url("./entreterimento.png");
         background-size: contain;
         background-repeat: no-repeat;
         
     }
 
     92.5% {
-        background: url('./ideia-1.png');
+        background: url('./entreterimento-1.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 1;     
     }
 
     95% {
-        background: url('./ideia-2.png');
+        background: url('./entreterimento-2.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 0;
     }
 
     97.5% {
-        background: url('./ideia-3.png');
+        background: url('./entreterimento-3.png');
         background-size: contain;
         background-repeat: no-repeat; 
         opacity: 1;        

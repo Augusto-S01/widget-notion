@@ -2,52 +2,52 @@
 
 
 
-.ideias {
+.notion {
     width: 2em;
     height: 2em;
-    background: url('./ideia.png');
+    background: url('./notion.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
-.ideias:hover {
+.notion:hover {
 
 }
 
-.nav_item:hover>a>.nav_icon.ideias{
+.nav_item:hover>a>.nav_icon.notion{
     animation-duration: 1s;
-    animation-name: ideaseGlitch;
+    animation-name: notionGlitch;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
-#ideias{
+#notion{
     
 }
 
-@keyframes ideaseGlitch {
+@keyframes notionGlitch {
     0%, 100% {
-        background: url("./ideia.png");
+        background: url("./notion.png");
         background-size: contain;
         background-repeat: no-repeat;
         
     }
 
     92.5% {
-        background: url('./ideia-1.png');
+        background: url('./notion-1.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 1;     
     }
 
     95% {
-        background: url('./ideia-2.png');
+        background: url('./notion-2.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 0;
     }
 
     97.5% {
-        background: url('./ideia-3.png');
+        background: url('./notion-3.png');
         background-size: contain;
         background-repeat: no-repeat; 
         opacity: 1;        
