@@ -25,7 +25,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 300px;
+    width: 190px;
     /* width: 20%;  torna responsivo*/
     
 }
@@ -86,10 +86,9 @@ body{
     border-bottom: #fff;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    margin-right: 1em;
 }
-.nav_hr:before{
-    margin-left: 1em;
-}
+
 
 
 
