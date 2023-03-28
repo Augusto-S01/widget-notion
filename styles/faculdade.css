@@ -2,52 +2,52 @@
 
 
 
-.entreterimento {
+.faculdade {
     width: 2em;
     height: 2em;
-    background: url('./entreterimento.png');
+    background: url('../assets/faculdade/faculdade.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
-.entreterimento:hover {
+.faculdade:hover {
 
 }
 
-.nav_item:hover>a>.nav_icon.entreterimento{
+.nav_item:hover>a>.nav_icon.faculdade{
     animation-duration: 1s;
-    animation-name: entreterimentoGlitch;
+    animation-name: faculdadeGlitch;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
-#entreterimento{
+#faculdade{
     
 }
 
-@keyframes entreterimentoGlitch {
+@keyframes faculdadeGlitch {
     0%, 100% {
-        background: url("./entreterimento.png");
+        background: url("../assets/faculdade/faculdade.png");
         background-size: contain;
         background-repeat: no-repeat;
         
     }
 
     92.5% {
-        background: url('./entreterimento-1.png');
+        background: url('../assets/faculdade/faculdade-1.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 1;     
     }
 
     95% {
-        background: url('./entreterimento-2.png');
+        background: url('../assets/faculdade/faculdade-2.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 0;
     }
 
     97.5% {
-        background: url('./entreterimento-3.png');
+        background: url('../assets/faculdade/faculdade-3.png');
         background-size: contain;
         background-repeat: no-repeat; 
         opacity: 1;        

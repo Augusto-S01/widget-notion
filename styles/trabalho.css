@@ -2,52 +2,52 @@
 
 
 
-.leituras {
+.trabalho {
     width: 2em;
     height: 2em;
-    background: url('./leituras.png');
+    background: url('../assets/trabalho/trabalho.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
-.leituras:hover {
+.trabalho:hover {
 
 }
 
-.nav_item:hover>a>.nav_icon.leituras{
+.nav_item:hover>a>.nav_icon.trabalho{
     animation-duration: 1s;
-    animation-name: leiturasGlitch;
+    animation-name: trabalhoGlitch;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
-#leituras{
+#trabalho{
     
 }
 
-@keyframes leiturasGlitch {
+@keyframes trabalhoGlitch {
     0%, 100% {
-        background: url("./leituras.png");
+        background: url("../assets/trabalho/trabalho.png");
         background-size: contain;
         background-repeat: no-repeat;
         
     }
 
     92.5% {
-        background: url('./leituras-1.png');
+        background: url('../assets/trabalho/trabalho-1.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 1;     
     }
 
     95% {
-        background: url('./leituras-2.png');
+        background: url('../assets/trabalho/trabalho-2.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 0;
     }
 
     97.5% {
-        background: url('./leituras-3.png');
+        background: url('../assets/trabalho/trabalho-3.png');
         background-size: contain;
         background-repeat: no-repeat; 
         opacity: 1;        

@@ -2,48 +2,52 @@
 
 
 
-.notion {
+.projetos {
     width: 2em;
     height: 2em;
-    background: url('./notion-main.png');
+    background: url('../assets/projetos/projetos.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
-.notion:hover {
+.projetos:hover {
 
 }
 
-.nav_item:hover>a>.nav_icon.notion{
+.nav_item:hover>a>.nav_icon.projetos{
     animation-duration: 1s;
-    animation-name: notionGlitch;
+    animation-name: projetosGlitch;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
-@keyframes notionGlitch {
+#projetos{
+    
+}
+
+@keyframes projetosGlitch {
     0%, 100% {
-        background: url("./notion-main.png");
+        background: url("../assets/projetos/projetos.png");
         background-size: contain;
         background-repeat: no-repeat;
         
     }
 
     92.5% {
-        background: url('./notion-1.png');
+        background: url('../assets/projetos/projetos-1.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 1;     
     }
 
     95% {
-        background: url('./notion-2.png');
+        background: url('../assets/projetos/projetos-2.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 0;
     }
 
     97.5% {
-        background: url('./notion-3.png');
+        background: url('../assets/projetos/projetos-3.png');
         background-size: contain;
         background-repeat: no-repeat; 
         opacity: 1;        

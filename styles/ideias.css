@@ -2,52 +2,52 @@
 
 
 
-.projetos {
+.ideias {
     width: 2em;
     height: 2em;
-    background: url('./projetos.png');
+    background: url('../assets/ideias/ideia.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
-.projetos:hover {
+.ideias:hover {
 
 }
 
-.nav_item:hover>a>.nav_icon.projetos{
+.nav_item:hover>a>.nav_icon.ideias{
     animation-duration: 1s;
-    animation-name: projetosGlitch;
+    animation-name: ideaseGlitch;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
-#projetos{
+#ideias{
     
 }
 
-@keyframes projetosGlitch {
+@keyframes ideaseGlitch {
     0%, 100% {
-        background: url("./projetos.png");
+        background: url("../assets/ideias/ideia.png");
         background-size: contain;
         background-repeat: no-repeat;
         
     }
 
     92.5% {
-        background: url('./projetos-1.png');
+        background: url('../assets/ideias/ideia-1.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 1;     
     }
 
     95% {
-        background: url('./projetos-2.png');
+        background: url('../assets/ideias/ideia-2.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 0;
     }
 
     97.5% {
-        background: url('./projetos-3.png');
+        background: url('../assets/ideias/ideia-3.png');
         background-size: contain;
         background-repeat: no-repeat; 
         opacity: 1;        

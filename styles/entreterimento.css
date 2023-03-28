@@ -2,52 +2,52 @@
 
 
 
-.cursos {
+.entreterimento {
     width: 2em;
     height: 2em;
-    background: url('./cursos.png');
+    background: url('../assets/entreterimento/entreterimento.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
-.cursos:hover {
+.entreterimento:hover {
 
 }
 
-.nav_item:hover>a>.nav_icon.cursos{
+.nav_item:hover>a>.nav_icon.entreterimento{
     animation-duration: 1s;
-    animation-name: cursoeGlitch;
+    animation-name: entreterimentoGlitch;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
-#cursos{
+#entreterimento{
     
 }
 
-@keyframes cursoeGlitch {
+@keyframes entreterimentoGlitch {
     0%, 100% {
-        background: url("./cursos.png");
+        background: url("../assets/entreterimento/entreterimento.png");
         background-size: contain;
         background-repeat: no-repeat;
         
     }
 
     92.5% {
-        background: url('./cursos-1.png');
+        background: url('../assets/entreterimento/entreterimento-1.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 1;     
     }
 
     95% {
-        background: url('./cursos-2.png');
+        background: url('../assets/entreterimento/entreterimento-2.png');
         background-size: contain;
         background-repeat: no-repeat;
         opacity: 0;
     }
 
     97.5% {
-        background: url('./cursos-3.png');
+        background: url('../assets/entreterimento/entreterimento-3.png');
         background-size: contain;
         background-repeat: no-repeat; 
         opacity: 1;        
