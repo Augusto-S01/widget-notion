@@ -22,7 +22,7 @@
 
 @keyframes notionGlitch {
     0%, 100% {
-        background: url("./notion.png");
+        background: url("./notion-main.png");
         background-size: contain;
         background-repeat: no-repeat;
         
