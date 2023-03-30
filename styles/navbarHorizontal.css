@@ -12,7 +12,8 @@ html{
 }
 
 body{
-
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -24,10 +25,12 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
  
     /* width: 20%;  torna responsivo*/
     
 }
+
 
 .nav_item{
     padding: 1em;
@@ -37,7 +40,23 @@ body{
     letter-spacing: 0.125em;
     text-align: center;
     vertical-align: middle;
+    border-left: 1px solid #fff;
 }
+
+/* crie uma barra vertical nos .nav_item de 
+forma que o primeiro não tenha na 
+sua esquerda nem o ultimo tenha a sua direita */
+
+
+.nav_item:first-child{
+    border-left: 0px solid #fff;
+}
+
+.nav_item:last-child{
+    border-right: 0px solid #fff;
+}
+
+
 
 
 
@@ -80,13 +99,7 @@ body{
 
 }
 
-.nav_hr{
-    margin-left: 1em;
-    border-bottom: #fff;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    margin-right: 1em;
-}
+ 
 
 
 
