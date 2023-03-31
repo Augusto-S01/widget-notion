@@ -36,8 +36,8 @@
 
 
             
-            <li class="nav_item" id="home">
-                <a href="https://www.notion.so/Home-34aeb99ffd3649c2976e35f9156e573a" class="nav_link">
+            <li class="nav_item" id="home" onclick="navigate(this.id)">
+                <a class="nav_link">
                     <div class="nav_icon home"></div>
                     <div class="nav_span_div">
                         <span class="nav_span">Home</span>
@@ -52,7 +52,7 @@
 
            
 
-            <li class="nav_item">
+            <li class="nav_item" id="leituras" onclick="navigate(this.id)">
                 <a href="https://www.notion.so/Leituras-93baaea355f64abba9921599143a0a75?pvs=4" class="nav_link">
                     <div class="nav_icon leituras"></div>
                     <div class="nav_span_div">
@@ -67,7 +67,7 @@
 
            
 
-            <li class="nav_item">
+            <li class="nav_item" id="faculdade" onclick="navigate(this.id)">
                 <a href="https://www.notion.so/Faculdade-78aebc4a42284a71b8ba149910072e33?pvs=4" class="nav_link">
 
                 <div class="nav_icon faculdade"></div>
@@ -86,7 +86,7 @@
 
 
 
-            <li class="nav_item">
+            <li class="nav_item" id="cursos" onclick="navigate(this.id)">
                 <a href="https://www.notion.so/Cursos-ba16252b793d4de69be0d881507f8022" class="nav_link">
                     <div class="nav_icon cursos"></div>
                     <div class="nav_span_div">
@@ -102,7 +102,7 @@
            
 
 
-            <li class="nav_item">
+            <li class="nav_item" id="trabalho" onclick="navigate(this.id)">
                 <a href="https://www.notion.so/Trabalho-26c7c22c59c5448fb01ce424bc846fe8" class="nav_link">
                     <div class="nav_icon trabalho"></div>
                     <div class="nav_span_div">
@@ -117,7 +117,7 @@
 
            
 
-            <li class="nav_item">
+            <li class="nav_item" id="leituras" onclick="navigate(this.id)">
                 <a href="https://www.notion.so/Lazer-f30203b1291a4829bad17c611a0dcb23" class="nav_link">
                 <div class="nav_icon entreterimento"></div>
                 <div class="nav_span_div">
@@ -132,7 +132,7 @@
 
            
 
-            <li class="nav_item">
+            <li class="nav_item" id="projetos" onclick="navigate(this.id)">
                 <a href="https://www.notion.so/Projetos-792ec6e4f3a341e0919c8cf4f722bc4d" class="nav_link">
                 <div class="nav_icon projetos"></div>
                 <div class="nav_span_div">
@@ -147,7 +147,7 @@
 
            
 
-            <li class="nav_item">
+            <li class="nav_item" id="notion" onclick="navigate(this.id)">
                 <a href="https://www.notion.so/Notion-bd5be691a76740088f7abf94172f0d00" class="nav_link">
                 <div class="nav_icon notion"></div>
                 <div class="nav_span_div">
@@ -163,6 +163,39 @@
 
         </ul>
     </nav>
+
+    <script>
+        function navigate(id){
+            switch (id) {
+                case "home":
+                    window.open("https://www.notion.so/Home-34aeb99ffd3649c2976e35f9156e573a")
+                    break;
+                case "leituras":
+                    window.open("https://www.notion.so/Leituras-93baaea355f64abba9921599143a0a75?pvs=4")
+                    break;
+                case "faculdade":
+                    window.open("https://www.notion.so/Faculdade-78aebc4a42284a71b8ba149910072e33?pvs=4")
+                    break;
+                case "cursos":
+                    window.open("https://www.notion.so/Cursos-ba16252b793d4de69be0d881507f8022")
+                    break;
+                case "trabalho":
+                    window.open("https://www.notion.so/Trabalho-26c7c22c59c5448fb01ce424bc846fe8")
+                    break;
+                case "entreterimento":
+                    window.open("https://www.notion.so/Lazer-f30203b1291a4829bad17c611a0dcb23")
+                    break;
+                case "projetos":
+                    window.open("https://www.notion.so/Projetos-792ec6e4f3a341e0919c8cf4f722bc4d")
+                    break;
+                case "notion":
+                    window.open("https://www.notion.so/Notion-bd5be691a76740088f7abf94172f0d00")
+                    break;
+                default:
+                    break;
+            }
+        }
+    </script>
 
 </body>
 </html>
