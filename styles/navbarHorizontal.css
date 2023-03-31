@@ -34,6 +34,7 @@ body{
 
 
 .nav_item{
+    width:185px;
     padding: 1em;
     color:#eee;
     font-size: 1em;
