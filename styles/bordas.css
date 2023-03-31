@@ -1,0 +1,108 @@
+.barraDireita{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 10px;
+    background-color: #eee;
+}
+
+
+.barraSuperior{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 1px;
+    background-color:#eee;
+}
+
+.barraInferior{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 10px;
+    height: 1px;
+    background-color:#eee;
+}
+
+.barraEsquerda{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    height: 10px;
+    background-color:#eee;
+}
+
+.nav_item:hover .barraDireita{
+    /* mantenha a posição final da animação */
+    animation: barraDireita 0.5s forwards; 
+}
+
+.nav_item:hover .barraSuperior{
+    animation: barraSuperior 0.5s forwards;
+}
+
+.nav_item:hover .barraInferior{
+    animation: barraInferior 0.5s forwards;
+}
+
+.nav_item:hover .barraEsquerda{
+    animation: barraEsquerda 0.5s forwards;
+}
+
+/* mantenha a posição final da animação */
+@keyframes barraDireita{
+    from{
+        right: 0;
+        height:5px;
+       
+    }
+    to{
+        right: 5px;
+        height:100%;
+        
+    }
+}
+
+
+
+@keyframes barraSuperior{
+    from{
+        width: 5px;
+        top: 0;
+    }
+    to{
+        top: 8px;
+        width: 100%;
+        
+    }
+}
+
+@keyframes barraInferior{
+    from{
+        width:5px;
+        bottom: 0;
+
+    }
+    to{
+        bottom: 8px;
+        width:100%;
+
+    }
+}
+
+@keyframes barraEsquerda{
+    from{
+        left: 0;
+        height: 5px;
+        
+    }
+    to{
+        left: 8px;
+        height: 100%;
+        
+    }
+}
+

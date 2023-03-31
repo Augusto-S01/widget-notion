@@ -26,6 +26,7 @@ body{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    
  
     /* width: 20%;  torna responsivo*/
     
@@ -40,22 +41,36 @@ body{
     letter-spacing: 0.125em;
     text-align: center;
     vertical-align: middle;
-    border-left: 1px solid #fff;
+    position: relative;
+    /* border-left: 1px solid #fff; */
 }
 
-/* crie uma barra vertical nos .nav_item de 
-forma que o primeiro não tenha na 
-sua esquerda nem o ultimo tenha a sua direita */
 
 
-.nav_item:first-child{
-    border-left: 0px solid #fff;
+
+
+
+
+.teste{
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #10a11c;
+    bottom: 0;
+    left: 0;
 }
 
-.nav_item:last-child{
-    border-right: 0px solid #fff;
-}
 
+
+
+
+
+
+
+body{
+    margin-top: 10em;
+    background-color: #000;
+}
 
 
 
