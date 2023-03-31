@@ -46,35 +46,6 @@ body{
 }
 
 
-
-
-
-
-
-.teste{
-    position: absolute;
-    width: 5px;
-    height: 100%;
-    background-color: #10a11c;
-    bottom: 0;
-    left: 0;
-}
-
-
-
-
-
-
-
-
-body{
-    margin-top: 10em;
-    background-color: #000;
-}
-
-
-
-
 .nav_item:hover{
     animation-duration: 0.01s;
     animation-name: textflicker;
